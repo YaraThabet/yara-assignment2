@@ -1,0 +1,25 @@
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: lightgray;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(6, 159, 77);
+    margin-bottom: 10px;
+}
